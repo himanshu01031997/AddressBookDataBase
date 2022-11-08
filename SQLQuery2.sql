@@ -40,3 +40,11 @@ where firstname='rahul'
 
 select * from AddressBook
 
+------------------------UC6-----------------
+select * from AddressBook
+where address='bsp'
+
+select * from AddressBook
+where city='pune'
+
+select * from AddressBook
