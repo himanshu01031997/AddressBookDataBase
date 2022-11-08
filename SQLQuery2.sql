@@ -34,3 +34,9 @@ where firstname='himanshu'
 
 select * from AddressBook
 
+------------------------UC5-----------------
+delete from AddressBook
+where firstname='rahul'
+
+select * from AddressBook
+
