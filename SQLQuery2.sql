@@ -57,3 +57,11 @@ select count('state') from AddressBook
 --------------------UC8-------------------
 select * from AddressBook order by firstname
 
+---------------------UC9------------
+ alter table AddressBook 
+ add AddressBookName varchar(30)
+ 
+ alter table AddressBook 
+ add AddressBookType varchar(30)
+ 
+ 
