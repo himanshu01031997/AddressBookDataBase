@@ -54,3 +54,6 @@ select count('city') from AddressBook
 select count('state') from AddressBook
 
 
+--------------------UC8-------------------
+select * from AddressBook order by firstname
+
