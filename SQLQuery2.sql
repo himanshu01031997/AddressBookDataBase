@@ -54,4 +54,3 @@ select count('city') from AddressBook
 select count('state') from AddressBook
 
 
-select * from AddressBook
