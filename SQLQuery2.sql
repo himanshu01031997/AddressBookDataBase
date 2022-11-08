@@ -25,3 +25,12 @@ insert into AddressBook(firstname,lastname,address,city,state,zip,phoneno,email)
 insert into AddressBook(firstname,lastname,address,city,state,zip,phoneno,email) values('harbhajan','sinha','bhind','pune','mh',456,33344,'dffdf')
 
 select * from AddressBook
+------------------------UC4--------------------
+
+
+update AddressBook
+set lastname='singh'
+where firstname='himanshu'
+
+select * from AddressBook
+
